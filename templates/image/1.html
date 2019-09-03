@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+
+<input id="ID1" type="text" onclick="begin()">
+
+<button onclick="end()">停止</button>
+<script>
+
+
+    function showTime(){
+           var nowd2=new Date().toLocaleString();
+           var temp=document.getElementById("ID1");
+           temp.value=nowd2;
+
+    }
+
+
+    function begin(){
+             showTime();
+             TD =setInterval(showTime,1000);
+
+        }
+
+
+      function end(){
+
+        clearInterval(TD);
+    }
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

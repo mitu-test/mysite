@@ -1,0 +1,12 @@
+awesome-slugify==1.6.5
+Django==1.11.6
+django-braces==1.13.0
+image==1.5.27
+Markdown==3.1.1
+Pillow==6.1.0
+pytz==2019.2
+redis==3.3.8
+regex==2019.8.19
+slugify==0.0.1
+sorl-thumbnail==12.5.0
+Unidecode==0.4.21
