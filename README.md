@@ -49,9 +49,9 @@ python manage.py createsuperuser
 8.运行启动django服务
 -------
 ```
-python manage.py runserver 127.0.0.0:8000
+python manage.py runserver 127.0.0.1:8000
 ```
-9.访问127.0.0.0:8000/home进入博客主页面
+9.访问127.0.0.1:8000/home进入博客主页面
 -------
 ![](https://github.com/PyGuojun/mysite/blob/master/static/images/home.png)
 
